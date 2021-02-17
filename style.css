@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(H2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+    
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+
+}
+
+.button{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform:translate(-50%,-50%)
+
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 12%;
+    left: 8%;
+}
+
+
+p{
+    padding-top: 8%;
+    padding-left: 20%;
+    color: white;
+    
+}
+h3{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+p2{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+h4{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+p3{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+h5{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+p4{
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
+    
